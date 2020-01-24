@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(74, 160, 219);
+}
+
+form {
+  display: flex;
+  padding: 100px;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+div {
+  padding: 8px;
+}
+
+fieldset {
+  border: none;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10x;
+  align-items: flex-start;
+  margin: 8px;
+}
+
+label {
+  color: white;
+  display: block;
+  font-size: small;
+}
+
+::placeholder {
+}
+
+input,
+textarea,
+select {
+  background: transparent;
+  color: white;
+  border: white solid thin;
+  width: 300px;
+  outline: none;
+}
+input {
+  height: 25px;
+}
+textarea {
+  height: 75px;
+}
+input:focus {
+  border: 2px solid rgb(23, 103, 157);
+}
+
+textarea:focus {
+  border: 2px solid rgb(23, 103, 157);
+}
+
+select:focus {
+  border: 2px solid rgb(23, 103, 157);
+}
